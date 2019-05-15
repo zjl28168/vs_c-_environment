@@ -1,10 +1,9 @@
 //myfirst.cpp -- display a message
-
 #include <iostream>
 //#include "stdlib.h"
 
 int my_sum_fuc( int a, int b );
-int main()
+void myfirst( void )
 {
     using namespace std;
     int num1, num2;
@@ -19,7 +18,6 @@ int main()
     cout << "You won't forget it!"<<endl;
     cin.get();
     cin.get();
-    return 0;
     //system（“pause”）；
 }
 
