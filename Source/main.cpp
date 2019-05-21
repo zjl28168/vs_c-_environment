@@ -3,7 +3,7 @@
 
 #define LINE_H  "**************************************"
 #define LINE_V  "*\n*\n*\n*\n*"
-#define LINE_TAB  "*\t"
+#define LINE_TAB  "*   "
 
 int main_menu_list( void );
 
@@ -15,18 +15,23 @@ int i;
 
 select_item = main_menu_list();
 
-cout << "\nYou select " << select_item;
+cout << endl;
+cout << LINE_H << endl;
+
+cout <<"["<< select_item << "."<< main_menu_itm[ select_item ] << "]"<< " is as follows:" << endl;
+cout << endl;
 
 for( i = 0; i < MENU_CNT; i++ )
     {
     if( i == select_item )
         {
-        test_table[i].proc();
+        test_func( select_item );
         }
     }
 
 cin.get();
-cin.get();
+
+return 0;
 }
 
 int main_menu_list( void )
@@ -40,14 +45,14 @@ selcet_item = 0;
 
 cout << LINE_H << endl;
 cout << LINE_V << endl;
-for( i =0; i < MENU_CNT; i++ )
+for( i = FIRST_IO; i < MENU_CNT; i++ )
     {
     cout << LINE_TAB;
-    cout << i << ".\t"<< main_menu_itm[i] << endl;
+    cout << i << ". "<< main_menu_itm[i] << endl;
     }
 cout << LINE_V << endl;
 cout << LINE_H << endl;
-cout << "Please a test:";
+cout << "Please select a test:";
 cin >> selcet_item;
 
 return selcet_item;

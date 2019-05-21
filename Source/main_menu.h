@@ -1,7 +1,11 @@
 #if !defined MAIN_MENU
 #define MAIN_MENU
-
+#include <iostream>
+#include <string>
+#include "My_first_io.cpp"
 #define MAIN_MENU_TITLE_LENGHT  50
+
+using namespace std;
 
 enum{
     FIRST_IO,
@@ -9,13 +13,27 @@ enum{
     MENU_CNT
 };
 
-char main_menu_itm[MENU_CNT][MAIN_MENU_TITLE_LENGHT]
+
+string main_menu_itm[]
 {
 "First IO Test",
 };
 
-void myfirst( void );
 
+void test_func( int item )
+{
+    switch ( item )
+    {
+    case FIRST_IO:
+        myfirst();
+        break;
+    
+    default:
+        break;
+    }
+}
+
+#if(0)
 typedef void ( *test_proc )( void );
 
 static const struct
@@ -26,5 +44,5 @@ test_table[]
 {
 /*FIRST_IO */ { myfirst },
 };
-
+#endif
 #endif
