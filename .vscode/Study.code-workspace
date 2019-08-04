@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "E:\\赵佳麟\\C++\\0_Code\\Study\\vs_cpp_environment"
+		},
+		{
+			"path": "E:\\赵佳麟\\C++\\0_Code\\Study\\Source"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp"
+		}
+	}
+}

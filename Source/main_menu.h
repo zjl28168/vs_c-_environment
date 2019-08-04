@@ -2,13 +2,16 @@
 #define MAIN_MENU
 #include <iostream>
 #include <string>
-#include "My_first_io.cpp"
+//#include "My_first_io.cpp"
 #define MAIN_MENU_TITLE_LENGHT  50
 
+void myfirst( void );
+void newplace( void );
 using namespace std;
 
 enum{
     FIRST_IO,
+    NEW_PLACE,
 
     MENU_CNT
 };
@@ -17,8 +20,8 @@ enum{
 string main_menu_itm[]
 {
 "First IO Test",
+"New Place",
 };
-
 
 void test_func( int item )
 {
@@ -28,6 +31,10 @@ void test_func( int item )
         myfirst();
         break;
     
+    case NEW_PLACE:
+        newplace();
+        break;
+
     default:
         break;
     }
