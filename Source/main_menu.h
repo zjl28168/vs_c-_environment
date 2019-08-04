@@ -7,11 +7,14 @@
 
 void myfirst( void );
 void newplace( void );
+void the_blocks_problem( void );
+
 using namespace std;
 
 enum{
     FIRST_IO,
     NEW_PLACE,
+    THE_BLOCKS_PROBLEM,
 
     MENU_CNT
 };
@@ -21,6 +24,8 @@ string main_menu_itm[]
 {
 "First IO Test",
 "New Place",
+"The Blocks Problem",
+//NULL
 };
 
 void test_func( int item )
@@ -33,6 +38,10 @@ void test_func( int item )
     
     case NEW_PLACE:
         newplace();
+        break;
+
+    case THE_BLOCKS_PROBLEM:
+        the_blocks_problem();
         break;
 
     default:
