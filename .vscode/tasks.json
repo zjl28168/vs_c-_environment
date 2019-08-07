@@ -11,7 +11,9 @@
             "Source\\main.cpp",
             "Source\\My_first_io.cpp",
             "Source\\newplace.cpp",
-            "Source\\the_blocks_problem.cpp",
+            "Source\\algorithm\\the_blocks_problem.cpp",
+            "Source\\namespace\\namesp.cpp",
+            "Source\\namespace\\use_namespace.cpp",
             "-o",
             //"main.exe"
             "${workspaceRoot}\\${fileBasename}.exe"

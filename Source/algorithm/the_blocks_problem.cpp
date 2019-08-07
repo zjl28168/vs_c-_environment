@@ -58,10 +58,10 @@ void print()
 int i, j;
 for( i = 0; i < n; i++ )
     {
-    cout << "Place-" << i << ": ";
+    cout << "Place" << i << ": ";
     for( j = 0; j < pile[i].size(); j++ )
         {
-        cout << pile[i][j] << "#Block\t";
+        cout << pile[i][j] << "#\t";
         }
     cout << endl;
     }
