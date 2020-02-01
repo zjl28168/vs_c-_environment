@@ -22,14 +22,8 @@ cout <<"["<< select_item << "."<< menu_table[ select_item ].name << "]"<< " is a
 cout << endl;
 
 menu_table[select_item].proc();
-// for( i = 0; i < MENU_CNT; i++ )
-//     {
-//     if( i == select_item )
-//         {
-//         test_func( select_item );
-//         }
-//     }
 
+cin.get();
 cin.get();
 
 return 0;

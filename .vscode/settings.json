@@ -1,6 +1,10 @@
 {
     "files.associations": {
-        "iostream": "cpp"
+        "vue": "html",
+        "*.vue-html": "html",
+        "iostream": "cpp",
+        "memory": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Disabled",
+    "editor.wrappingIndent": "indent"
 }

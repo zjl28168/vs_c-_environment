@@ -9,6 +9,8 @@ void myfirst( void );
 void newplace( void );
 void the_blocks_problem( void );
 void use_namespace( void );
+void smrtptrs( void );
+void fowl_auto_ptr( void );
 
 using namespace std;
 
@@ -17,6 +19,8 @@ enum{
     NEW_PLACE,
     USE_NAMESPACE,
     THE_BLOCKS_PROBLEM,
+    SMART_POINTERS,
+    FOWL_AUTO_PTR,
 
     MENU_CNT
 };
@@ -34,6 +38,9 @@ struct main_menu menu_table[] =
     /*NEW_PLACE*/            { "New Place",                            newplace            },
     /*USE_NAMESPACE*/        { "Use Namespace",                        use_namespace       },
     /*THE_BLOCKS_PROBLEM*/   { "The Blocks Problem",                   the_blocks_problem  },
+    /*SMART_POINTERS*/       { "Smart Pointers",                       smrtptrs            },
+    /*FOWL_AUTO_PTR*/        { "Poor choice auto_ptr",                 fowl_auto_ptr       },
+
 };
 
 string main_menu_itm[]

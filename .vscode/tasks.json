@@ -14,6 +14,8 @@
             "Source\\algorithm\\the_blocks_problem.cpp",
             "Source\\namespace\\namesp.cpp",
             "Source\\namespace\\use_namespace.cpp",
+            "Source\\Smart_Pointers\\smrtptrs.cpp",
+            "Source\\Smart_Pointers\\fowl_auto_ptr.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"
