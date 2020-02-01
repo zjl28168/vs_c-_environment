@@ -4,7 +4,7 @@
 void other( void );
 void another( void );
 
-int use_namespace( void )
+void use_namespace( void )
 {
     using debts::Debt;
     using std::cin;
@@ -16,7 +16,7 @@ int use_namespace( void )
     another();
     cin.get();
     cin.get();
-    return 0;
+    //return 0;
 }
 
 void other( void )
@@ -47,6 +47,7 @@ void other( void )
 void another( void )
 {
     using pers::Person;
+    using std::cout;
     Person collector = { "Milo", "Rightshift" };
     cout << "The collector is ";
     pers::showPerson( collector );

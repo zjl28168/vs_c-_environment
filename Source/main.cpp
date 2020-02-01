@@ -18,16 +18,17 @@ select_item = main_menu_list();
 cout << endl;
 cout << LINE_H << endl;
 
-cout <<"["<< select_item << "."<< main_menu_itm[ select_item ] << "]"<< " is as follows:" << endl;
+cout <<"["<< select_item << "."<< menu_table[ select_item ].name << "]"<< " is as follows:" << endl;
 cout << endl;
 
-for( i = 0; i < MENU_CNT; i++ )
-    {
-    if( i == select_item )
-        {
-        test_func( select_item );
-        }
-    }
+menu_table[select_item].proc();
+// for( i = 0; i < MENU_CNT; i++ )
+//     {
+//     if( i == select_item )
+//         {
+//         test_func( select_item );
+//         }
+//     }
 
 cin.get();
 
@@ -48,7 +49,7 @@ cout << LINE_V << endl;
 for( i = FIRST_IO; i < MENU_CNT; i++ )
     {
     cout << LINE_TAB;
-    cout << i << ". "<< main_menu_itm[i] << endl;
+    cout << i << ". "<< menu_table[i].name << endl;
     }
 cout << LINE_V << endl;
 cout << LINE_H << endl;

@@ -8,7 +8,7 @@
 void myfirst( void );
 void newplace( void );
 void the_blocks_problem( void );
-int use_namespace( void );
+void use_namespace( void );
 
 using namespace std;
 
@@ -21,6 +21,20 @@ enum{
     MENU_CNT
 };
 
+struct main_menu
+{
+string  name;     // Name of the menu
+void   (*proc)(); // Process of the menu
+};
+
+struct main_menu menu_table[] = 
+{
+                                 /*Name                                Proc*/
+    /*FIRST_IO*/             { "First IO Test",                        myfirst             },
+    /*NEW_PLACE*/            { "New Place",                            newplace            },
+    /*USE_NAMESPACE*/        { "Use Namespace",                        use_namespace       },
+    /*THE_BLOCKS_PROBLEM*/   { "The Blocks Problem",                   the_blocks_problem  },
+};
 
 string main_menu_itm[]
 {
