@@ -12,6 +12,7 @@ void use_namespace( void );
 void smrtptrs( void );
 void fowl_auto_ptr( void );
 void voctor( void );
+void lambda( void );
 
 using namespace std;
 
@@ -23,6 +24,7 @@ enum{
     SMART_POINTERS,
     FOWL_AUTO_PTR,
     VOCTOR_TEMPLETE,
+    LAMBDA,
 
     MENU_CNT
 };
@@ -43,6 +45,7 @@ struct main_menu menu_table[] =
     /*SMART_POINTERS*/       { "Smart Pointers",                       smrtptrs            },
     /*FOWL_AUTO_PTR*/        { "Poor choice auto_ptr",                 fowl_auto_ptr       },
     /*VOCTOR_TEMPLETE*/      { "Vector Templete",                      voctor              },
+    /*LAMBDA*/               { "Lambda",                               lambda              },
 
 };
 
