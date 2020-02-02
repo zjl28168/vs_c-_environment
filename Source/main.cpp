@@ -50,5 +50,10 @@ cout << LINE_H << endl;
 cout << "Please select a test:";
 cin >> selcet_item;
 
+while( cin.get() !='\n' )
+{
+    continue;
+}
+
 return selcet_item;
 }

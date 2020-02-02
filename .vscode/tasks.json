@@ -16,6 +16,7 @@
             "Source\\namespace\\use_namespace.cpp",
             "Source\\Smart_Pointers\\smrtptrs.cpp",
             "Source\\Smart_Pointers\\fowl_auto_ptr.cpp",
+            "Source\\Vector\\Vector.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"

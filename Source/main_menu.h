@@ -11,6 +11,7 @@ void the_blocks_problem( void );
 void use_namespace( void );
 void smrtptrs( void );
 void fowl_auto_ptr( void );
+void voctor( void );
 
 using namespace std;
 
@@ -21,6 +22,7 @@ enum{
     THE_BLOCKS_PROBLEM,
     SMART_POINTERS,
     FOWL_AUTO_PTR,
+    VOCTOR_TEMPLETE,
 
     MENU_CNT
 };
@@ -40,9 +42,11 @@ struct main_menu menu_table[] =
     /*THE_BLOCKS_PROBLEM*/   { "The Blocks Problem",                   the_blocks_problem  },
     /*SMART_POINTERS*/       { "Smart Pointers",                       smrtptrs            },
     /*FOWL_AUTO_PTR*/        { "Poor choice auto_ptr",                 fowl_auto_ptr       },
+    /*VOCTOR_TEMPLETE*/      { "Vector Templete",                      voctor              },
 
 };
 
+#if(0)
 string main_menu_itm[]
 {
 "First IO Test",
@@ -77,7 +81,7 @@ void test_func( int item )
     }
 }
 
-#if(0)
+
 typedef void ( *test_proc )( void );
 
 static const struct
