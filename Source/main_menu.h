@@ -14,6 +14,7 @@ void fowl_auto_ptr( void );
 void voctor( void );
 void lambda( void );
 void fctn_array_range( void );
+void fctn_recursion( void );
 
 using namespace std;
 
@@ -27,6 +28,7 @@ enum{
     VOCTOR_TEMPLETE,
     LAMBDA,
     FCTN_ARRAY_RANGE,
+    FCTN_RECURSION,
 
     MENU_CNT
 };
@@ -49,54 +51,7 @@ struct main_menu menu_table[] =
     /*VOCTOR_TEMPLETE*/      { "Vector Templete",                      voctor              },
     /*LAMBDA*/               { "Lambda",                               lambda              },
     /*FCTN_ARRAY_RANGE*/     { "Function with an array range",         fctn_array_range    },
+    /*FCTN_RECURSION*/       { "Function with recursion",              fctn_recursion      },
 
 };
-
-#if(0)
-string main_menu_itm[]
-{
-"First IO Test",
-"New Place",
-"Use Namespace",
-"The Blocks Problem",
-//NULL
-};
-
-void test_func( int item )
-{
-    switch ( item )
-    {
-    case FIRST_IO:
-        myfirst();
-        break;
-    
-    case NEW_PLACE:
-        newplace();
-        break;
-
-    case USE_NAMESPACE:
-        use_namespace();
-        break;
-
-    case THE_BLOCKS_PROBLEM:
-        the_blocks_problem();
-        break;
-
-    default:
-        break;
-    }
-}
-
-
-typedef void ( *test_proc )( void );
-
-static const struct
-    {
-    test_proc   proc;
-    }
-test_table[]
-{
-/*FIRST_IO */ { myfirst },
-};
-#endif
 #endif

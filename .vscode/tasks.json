@@ -19,6 +19,7 @@
             "Source\\Vector\\Vector.cpp",
             "Source\\Lambda\\lambda.cpp",
             "Source\\Function\\fctn_array_range.cpp",
+            "Source\\Function\\fctn_recursion.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"
