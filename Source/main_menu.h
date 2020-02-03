@@ -13,6 +13,7 @@ void smrtptrs( void );
 void fowl_auto_ptr( void );
 void voctor( void );
 void lambda( void );
+void fctn_array_range( void );
 
 using namespace std;
 
@@ -25,6 +26,7 @@ enum{
     FOWL_AUTO_PTR,
     VOCTOR_TEMPLETE,
     LAMBDA,
+    FCTN_ARRAY_RANGE,
 
     MENU_CNT
 };
@@ -46,6 +48,7 @@ struct main_menu menu_table[] =
     /*FOWL_AUTO_PTR*/        { "Poor choice auto_ptr",                 fowl_auto_ptr       },
     /*VOCTOR_TEMPLETE*/      { "Vector Templete",                      voctor              },
     /*LAMBDA*/               { "Lambda",                               lambda              },
+    /*FCTN_ARRAY_RANGE*/     { "Function with an array range",         fctn_array_range    },
 
 };
 
