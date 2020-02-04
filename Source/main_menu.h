@@ -17,6 +17,7 @@ void fctn_array_range( void );
 void fctn_recursion( void );
 void fctn_ptr( void );
 void fctn_strc_ref( void );
+void fctn_file_func( void );
 
 using namespace std;
 
@@ -33,6 +34,7 @@ enum{
     FCTN_RECURSION,
     FCTN_PTR,
     FCTN_STRC_REF,
+    FCTN_FILE_FUNC,
 
     MENU_CNT
 };
@@ -58,6 +60,7 @@ struct main_menu menu_table[] =
     /*FCTN_RECURSION*/       { "Function with recursion",              fctn_recursion      },
     /*FCTN_PTR*/             { "Function with pointers",               fctn_ptr            },
     /*FCTN_STRC_REF*/        { "Function struct reference",            fctn_strc_ref       },
+    /*FCTN_FILE_FUNC*/       { "Function file function",               fctn_file_func      },
 
 };
 #endif
