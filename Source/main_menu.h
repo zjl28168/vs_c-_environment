@@ -19,6 +19,7 @@ void fctn_ptr( void );
 void fctn_strc_ref( void );
 void fctn_file_func( void );
 void fctn_overload_left( void );
+void fctn_ovrd_tmplt( void );
 
 using namespace std;
 
@@ -37,6 +38,7 @@ enum{
     FCTN_STRC_REF,
     FCTN_FILE_FUNC,
     FCTN_OVERLOAD_LEFT,
+    FCTN_OVRD_TMPLT,
 
     MENU_CNT
 };
@@ -64,6 +66,7 @@ struct main_menu menu_table[] =
     /*FCTN_STRC_REF*/        { "Function struct reference",            fctn_strc_ref       },
     /*FCTN_FILE_FUNC*/       { "Function file function",               fctn_file_func      },
     /*FCTN_OVERLOAD_LEFT*/   { "Function overload left",               fctn_overload_left  },
+    /*FCTN_OVRD_TMPLT*/      { "Function override template",           fctn_ovrd_tmplt     },
 
 };
 #endif

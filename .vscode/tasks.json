@@ -24,6 +24,7 @@
             "Source\\Function\\fctn_strc_ref.cpp",
             "Source\\Function\\fctn_file_func.cpp",
             "Source\\Function\\fctn_overload_left.cpp",
+            "Source\\Function\\fctn_ovrd_tmplt.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"

@@ -4,7 +4,12 @@
         "*.vue-html": "html",
         "iostream": "cpp",
         "memory": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "type_traits": "cpp",
+        "array": "cpp",
+        "fstream": "cpp",
+        "optional": "cpp",
+        "tuple": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "editor.wrappingIndent": "indent"
