@@ -16,6 +16,7 @@ void lambda( void );
 void fctn_array_range( void );
 void fctn_recursion( void );
 void fctn_ptr( void );
+void fctn_strc_ref( void );
 
 using namespace std;
 
@@ -31,6 +32,7 @@ enum{
     FCTN_ARRAY_RANGE,
     FCTN_RECURSION,
     FCTN_PTR,
+    FCTN_STRC_REF,
 
     MENU_CNT
 };
@@ -55,6 +57,7 @@ struct main_menu menu_table[] =
     /*FCTN_ARRAY_RANGE*/     { "Function with an array range",         fctn_array_range    },
     /*FCTN_RECURSION*/       { "Function with recursion",              fctn_recursion      },
     /*FCTN_PTR*/             { "Function with pointers",               fctn_ptr            },
+    /*FCTN_STRC_REF*/        { "Function struct reference",            fctn_strc_ref       },
 
 };
 #endif

@@ -21,6 +21,7 @@
             "Source\\Function\\fctn_array_range.cpp",
             "Source\\Function\\fctn_recursion.cpp",
             "Source\\Function\\fctn_ptr.cpp",
+            "Source\\Function\\fctn_strc_ref.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"
