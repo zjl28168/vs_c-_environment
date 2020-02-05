@@ -52,7 +52,7 @@ char * left( const char *str, int n )
     {
         n = 0;
     }
-    char *p = new char( n + 1 );
+    char *p = new char[ n + 1 ];
     int i;
     for( i = 0; i < n && str[i]; i++ )
     {

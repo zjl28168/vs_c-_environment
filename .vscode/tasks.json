@@ -25,6 +25,8 @@
             "Source\\Function\\fctn_file_func.cpp",
             "Source\\Function\\fctn_overload_left.cpp",
             "Source\\Function\\fctn_ovrd_tmplt.cpp",
+            "Source\\Class\\class_array\\stock.cpp",
+            "Source\\Class\\class_array\\class_array.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"

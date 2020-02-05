@@ -13,6 +13,7 @@ void smrtptrs( void );
 void fowl_auto_ptr( void );
 void voctor( void );
 void lambda( void );
+
 void fctn_array_range( void );
 void fctn_recursion( void );
 void fctn_ptr( void );
@@ -20,6 +21,8 @@ void fctn_strc_ref( void );
 void fctn_file_func( void );
 void fctn_overload_left( void );
 void fctn_ovrd_tmplt( void );
+
+void class_array( void );
 
 using namespace std;
 
@@ -39,6 +42,7 @@ enum{
     FCTN_FILE_FUNC,
     FCTN_OVERLOAD_LEFT,
     FCTN_OVRD_TMPLT,
+    ClASS_ARRAY,
 
     MENU_CNT
 };
@@ -67,6 +71,7 @@ struct main_menu menu_table[] =
     /*FCTN_FILE_FUNC*/       { "Function file function",               fctn_file_func      },
     /*FCTN_OVERLOAD_LEFT*/   { "Function overload left",               fctn_overload_left  },
     /*FCTN_OVRD_TMPLT*/      { "Function override template",           fctn_ovrd_tmplt     },
+    /*ClASS_ARRAY*/          { "Class array",                          class_array         },
 
 };
 #endif
