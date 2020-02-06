@@ -29,6 +29,8 @@
             "Source\\Class\\class_array\\class_array.cpp",
             "Source\\Class\\Vector\\class_vector_ext.cpp",
             "Source\\Class\\Vector\\class_rand_walk.cpp",
+            "Source\\Class\\class_conversion\\class_stone.cpp",
+            "Source\\Class\\class_conversion\\class_conversion.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"

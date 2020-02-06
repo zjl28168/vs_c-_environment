@@ -10,7 +10,8 @@
         "fstream": "cpp",
         "optional": "cpp",
         "tuple": "cpp",
-        "xiosbase": "cpp"
+        "xiosbase": "cpp",
+        "ostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled",
     "editor.wrappingIndent": "indent"
