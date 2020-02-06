@@ -27,6 +27,8 @@
             "Source\\Function\\fctn_ovrd_tmplt.cpp",
             "Source\\Class\\class_array\\stock.cpp",
             "Source\\Class\\class_array\\class_array.cpp",
+            "Source\\Class\\Vector\\class_vector_ext.cpp",
+            "Source\\Class\\Vector\\class_rand_walk.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"

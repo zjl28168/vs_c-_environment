@@ -23,6 +23,7 @@ void fctn_overload_left( void );
 void fctn_ovrd_tmplt( void );
 
 void class_array( void );
+void class_rand_walk( void );
 
 using namespace std;
 
@@ -35,6 +36,7 @@ enum{
     FOWL_AUTO_PTR,
     VOCTOR_TEMPLETE,
     LAMBDA,
+
     FCTN_ARRAY_RANGE,
     FCTN_RECURSION,
     FCTN_PTR,
@@ -42,7 +44,9 @@ enum{
     FCTN_FILE_FUNC,
     FCTN_OVERLOAD_LEFT,
     FCTN_OVRD_TMPLT,
+
     ClASS_ARRAY,
+    CLASS_RAND_WALK,
 
     MENU_CNT
 };
@@ -72,6 +76,7 @@ struct main_menu menu_table[] =
     /*FCTN_OVERLOAD_LEFT*/   { "Function overload left",               fctn_overload_left  },
     /*FCTN_OVRD_TMPLT*/      { "Function override template",           fctn_ovrd_tmplt     },
     /*ClASS_ARRAY*/          { "Class array",                          class_array         },
+    /*CLASS_RAND_WALK*/      { "Class rand walk",                      class_rand_walk     },
 
 };
 #endif
