@@ -18,6 +18,7 @@
             "Source\\Smart_Pointers\\fowl_auto_ptr.cpp",
             "Source\\Vector\\Vector.cpp",
             "Source\\Lambda\\lambda.cpp",
+
             "Source\\Function\\fctn_array_range.cpp",
             "Source\\Function\\fctn_recursion.cpp",
             "Source\\Function\\fctn_ptr.cpp",
@@ -25,12 +26,16 @@
             "Source\\Function\\fctn_file_func.cpp",
             "Source\\Function\\fctn_overload_left.cpp",
             "Source\\Function\\fctn_ovrd_tmplt.cpp",
+
             "Source\\Class\\class_array\\stock.cpp",
             "Source\\Class\\class_array\\class_array.cpp",
             "Source\\Class\\Vector\\class_vector_ext.cpp",
             "Source\\Class\\Vector\\class_rand_walk.cpp",
             "Source\\Class\\class_conversion\\class_stone.cpp",
             "Source\\Class\\class_conversion\\class_conversion.cpp",
+            "Source\\Class\\class_ABC\\class_account_abc.cpp",
+            "Source\\Class\\class_ABC\\class_account_abc_main.cpp",
+
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"
