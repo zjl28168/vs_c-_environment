@@ -1,4 +1,4 @@
-//newplace.cpp  -- using placement new
+//new_placement.cpp  -- using placement new
 /*定位new 运算符 通常，new负责在堆（heap）中找到一个足以能够满足要求的内存块。new 运算符还有另外一种遍体，被称为定位（placement）
 new 运算符，它让您能制定要使用的位置。程序员可能使用这个特性来设置其内存管理规程、处理需要通过特定地址进行访问的硬件或在特定位置创建对象*/
 #include <iostream>

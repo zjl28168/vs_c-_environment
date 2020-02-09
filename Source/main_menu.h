@@ -26,6 +26,7 @@ void class_array( void );
 void class_rand_walk( void );
 void class_conversion( void );
 void class_account_abc_main( void );
+void class_new_placement_main( void );
 
 using namespace std;
 
@@ -51,6 +52,7 @@ enum{
     CLASS_RAND_WALK,
     CLASS_CONVERSION,
     CLASS_ACCOUNT_ABC,
+    CLASS_NEW_PLACEMENT,
 
     MENU_CNT
 };
@@ -85,6 +87,7 @@ struct main_menu menu_table[] =
     /*CLASS_RAND_WALK*/      { "Class rand walk",                      class_rand_walk               },
     /*CLASS_CONVERSION*/     { "Class conversion",                     class_conversion              },
     /*CLASS_ACCOUNT_ABC*/    { "Class account ABC",                    class_account_abc_main        },
+    /*CLASS_NEW_PLACEMENT*/  { "Class new placement",                  class_new_placement_main      },
 
 };
 #endif

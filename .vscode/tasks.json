@@ -10,7 +10,6 @@
             //"${file}",
             "Source\\main.cpp",
             "Source\\My_first_io.cpp",
-            "Source\\newplace.cpp",
             "Source\\algorithm\\the_blocks_problem.cpp",
             "Source\\namespace\\namesp.cpp",
             "Source\\namespace\\use_namespace.cpp",
@@ -27,6 +26,8 @@
             "Source\\Function\\fctn_overload_left.cpp",
             "Source\\Function\\fctn_ovrd_tmplt.cpp",
 
+            "Source\\Class\\new_placement\\new_placement.cpp",
+            "Source\\Class\\new_placement\\class_new_placement.cpp",
             "Source\\Class\\class_array\\stock.cpp",
             "Source\\Class\\class_array\\class_array.cpp",
             "Source\\Class\\Vector\\class_vector_ext.cpp",
