@@ -36,6 +36,8 @@
             "Source\\Class\\class_conversion\\class_conversion.cpp",
             "Source\\Class\\class_ABC\\class_account_abc.cpp",
             "Source\\Class\\class_ABC\\class_account_abc_main.cpp",
+            "Source\\Class\\class_queue\\class_queue.cpp",
+            "Source\\Class\\class_queue\\class_bank.cpp",
 
             "-o",
             //"main.exe"
