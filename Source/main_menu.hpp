@@ -1,8 +1,6 @@
-#if !defined MAIN_MENU
-#define MAIN_MENU
-#include <iostream>
-#include <string>
-//#include "My_first_io.cpp"
+#if !defined MAIN_MENU_HPP
+#define MAIN_MENU_HPP
+
 #define MAIN_MENU_TITLE_LENGHT  50
 
 void myfirst( void );

@@ -1,9 +1,11 @@
 #include <iostream>
-#include "main_menu.h"
+#include "main_menu.hpp"
 
 #define LINE_H  "**************************************"
 #define LINE_V  "*\n*\n*\n*\n*"
 #define LINE_TAB  "*   "
+
+#define INVALID_INT  0xffff
 
 int main_menu_list( void );
 
@@ -13,16 +15,21 @@ using namespace std;
 int select_item;
 int i;
 
-select_item = main_menu_list();
+while( ( select_item = main_menu_list() ) && ( INVALID_INT != select_item ) )
+{
+    cout << endl;
+    cout << LINE_H << endl;
 
-cout << endl;
-cout << LINE_H << endl;
+    cout <<"["<< select_item << "."<< menu_table[ select_item ].name << "]"<< " is as follows:" << endl;
+    cout << endl;
 
-cout <<"["<< select_item << "."<< menu_table[ select_item ].name << "]"<< " is as follows:" << endl;
-cout << endl;
+    menu_table[select_item].proc();
+    cout << endl;
+    cin.get();
+    cin.get();
+}
 
-menu_table[select_item].proc();
-
+cout << "Bye!\n";
 cin.get();
 cin.get();
 
@@ -31,7 +38,8 @@ return 0;
 
 int main_menu_list( void )
 {
-using namespace std;
+using std::cout;
+using std::cin;
 
 int i;
 int selcet_item;
@@ -47,12 +55,18 @@ for( i = FIRST_IO; i < MENU_CNT; i++ )
     }
 cout << LINE_V << endl;
 cout << LINE_H << endl;
-cout << "Please select a test:";
-cin >> selcet_item;
+cout << "Please select a test ( q to quit ):";
 
-while( cin.get() !='\n' )
+if( cin >> selcet_item )
 {
-    continue;
+    while( cin.get() !='\n' )
+    {
+        continue;
+    }
+}
+else
+{
+    selcet_item = INVALID_INT;
 }
 
 return selcet_item;
