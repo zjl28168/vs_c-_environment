@@ -38,6 +38,8 @@
             "Source\\Class\\class_ABC\\class_account_abc_main.cpp",
             "Source\\Class\\class_queue\\class_queue.cpp",
             "Source\\Class\\class_queue\\class_bank.cpp",
+            "Source\\Class\\class_ptr\\class_string.cpp",
+            "Source\\Class\\class_ptr\\class_new_ptr.cpp",
 
             "-o",
             //"main.exe"

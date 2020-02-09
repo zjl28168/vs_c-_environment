@@ -26,6 +26,7 @@ void class_conversion( void );
 void class_account_abc_main( void );
 void class_new_placement_main( void );
 void class_bank( void );
+void class_ptr_main( void );
 
 using namespace std;
 
@@ -53,6 +54,7 @@ enum{
     CLASS_ACCOUNT_ABC,
     CLASS_NEW_PLACEMENT,
     CLASS_BANK,
+    CLASS_NEW_PTR,
 
     MENU_CNT
 };
@@ -89,6 +91,7 @@ struct main_menu menu_table[] =
     /*CLASS_ACCOUNT_ABC*/    { "Class account ABC",                    class_account_abc_main        },
     /*CLASS_NEW_PLACEMENT*/  { "Class new placement",                  class_new_placement_main      },
     /*CLASS_BANK*/           { "Class queue for Bank",                 class_bank                    },
+    /*CLASS_NEW_PTR*/        { "Class new pointer",                    class_ptr_main                },
 
 };
 #endif
