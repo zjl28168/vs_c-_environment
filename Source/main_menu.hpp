@@ -29,6 +29,7 @@ void class_bank( void );
 void class_ptr_main( void );
 
 void student_main( void );
+void worker_main();
 
 using namespace std;
 
@@ -59,6 +60,7 @@ enum{
     CLASS_NEW_PTR,
 
     CODE_OVERLOAD_STUDENT,
+    CODE_OVERLOAD_MI,
 
     MENU_CNT
 };
@@ -98,6 +100,7 @@ struct main_menu menu_table[] =
     /*CLASS_NEW_PTR*/        { "Class new pointer",                    class_ptr_main                },
 
     /*CODE_OVERLOAD_STUDENT*/{ "Code Overload private",                student_main                  },
+    /*CODE_OVERLOAD_MI*/     { "Code Overload MI",                     worker_main                   },
 
 };
 #endif

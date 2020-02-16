@@ -43,6 +43,9 @@
 
             "Source\\Code_Overload\\Private_inheritance\\student.cpp",
             "Source\\Code_Overload\\Private_inheritance\\student_main.cpp",
+            "Source\\Code_Overload\\Multiple_inheritance\\worker.cpp",
+            "Source\\Code_Overload\\Multiple_inheritance\\worker_main.cpp",
+
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"
