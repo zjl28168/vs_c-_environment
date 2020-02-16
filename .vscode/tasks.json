@@ -41,6 +41,8 @@
             "Source\\Class\\class_ptr\\class_string.cpp",
             "Source\\Class\\class_ptr\\class_new_ptr.cpp",
 
+            "Source\\Code_Overload\\Private_inheritance\\student.cpp",
+            "Source\\Code_Overload\\Private_inheritance\\student_main.cpp",
             "-o",
             //"main.exe"
             //"${workspaceRoot}\\${fileBasename}.exe"

@@ -28,6 +28,8 @@ void class_new_placement_main( void );
 void class_bank( void );
 void class_ptr_main( void );
 
+void student_main( void );
+
 using namespace std;
 
 enum{
@@ -55,6 +57,8 @@ enum{
     CLASS_NEW_PLACEMENT,
     CLASS_BANK,
     CLASS_NEW_PTR,
+
+    CODE_OVERLOAD_STUDENT,
 
     MENU_CNT
 };
@@ -92,6 +96,8 @@ struct main_menu menu_table[] =
     /*CLASS_NEW_PLACEMENT*/  { "Class new placement",                  class_new_placement_main      },
     /*CLASS_BANK*/           { "Class queue for Bank",                 class_bank                    },
     /*CLASS_NEW_PTR*/        { "Class new pointer",                    class_ptr_main                },
+
+    /*CODE_OVERLOAD_STUDENT*/{ "Code Overload private",                student_main                  },
 
 };
 #endif
