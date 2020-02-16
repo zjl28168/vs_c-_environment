@@ -40,6 +40,7 @@
             "Source\\Class\\class_queue\\class_bank.cpp",
             "Source\\Class\\class_ptr\\class_string.cpp",
             "Source\\Class\\class_ptr\\class_new_ptr.cpp",
+            "Source\\Class\\class_template\\class_template.cpp",
 
             "Source\\Code_Overload\\Private_inheritance\\student.cpp",
             "Source\\Code_Overload\\Private_inheritance\\student_main.cpp",
